@@ -44,7 +44,7 @@ p, li, a {
     text-decoration-color: #3685B5;
 }
 
-li a:hover {
+a:hover {
     transition-duration: 0.4s;
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
     /* background-color: white; */
@@ -158,9 +158,9 @@ div.body {
 .footer {
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: -10px;
+    margin-bottom: 40px;
     position: relative;
-    bottom: 25px;
+    bottom: -15px;
 }
 
 .footer ul {
@@ -175,6 +175,18 @@ div.body {
     padding-right: 12px;
     text-decoration-line: none;
     font-size: larger;
+}
+
+.projects {
+    display: flex;
+}
+
+.rem_proj, .ryv_proj {
+    align-self: center;
+}
+
+img {
+    box-shadow: 0px 10px rgba(18, 28, 121, 0.37), 0 6px 10px 0 rgba(60, 116, 206, 0.418);
 }
 
 @media only screen and (max-width: 768px) {
